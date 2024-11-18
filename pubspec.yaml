@@ -1,0 +1,28 @@
+name: weather_app
+description: A simple weather application UI in Flutter
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none"
+
+# Version of your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+  geolocator: ^9.0.2
+  get: ^4.6.5
+  http: ^0.13.5
+  geocoding: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
